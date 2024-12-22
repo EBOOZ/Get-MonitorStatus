@@ -1,7 +1,8 @@
 # Introduction
 This script is monitoring connected monitors to my laptop. It makes use of one sensor that is created in Home Assistant up front. 
 
-The use case for this script is to monitor if my laptop is connected to the external monitor in my home office, and to mute the radio automatically when I'm joining an online meeting in the home office or downstairs in the kitchen, depending on where I'm working in the house.
+The use case for this script is to monitor if my laptop is connected to the external monitor in my home office, and to mute the radio automatically when I'm joining an online meeting in the home office or downstairs in the kitchen, depending on where I'm working in the house. This is currently automated as follows:
+![A process flow in node-red that controls the radios in the house based on if the home office monitor is connected](node-red_process_flow.png)
 
 # Important
 This solution is created to work with Home Assistant. It will work with any home automation platform that provides an API, but you probably need to change the PowerShell code.
